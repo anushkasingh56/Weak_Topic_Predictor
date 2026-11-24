@@ -1,0 +1,81 @@
+[
+  { "id": "dsa-arr-1", "topic": "DSA", "subtopic": "Arrays", "difficulty": 1, "q": "What is the time complexity of accessing an element in an array by index?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": 0 },
+  { "id": "dsa-arr-2", "topic": "DSA", "subtopic": "Arrays", "difficulty": 2, "q": "Which technique finds the maximum subarray sum in O(n) time?", "options": ["Brute force", "Kadane's Algorithm", "Bubble sort", "Binary search"], "answer": 1 },
+  { "id": "dsa-arr-3", "topic": "DSA", "subtopic": "Arrays", "difficulty": 2, "q": "To reverse an array in place, which approach is most efficient?", "options": ["Use extra array", "Two pointer swap", "Recursion with new array", "Sort then reverse"], "answer": 1 },
+  { "id": "dsa-arr-4", "topic": "DSA", "subtopic": "Arrays", "difficulty": 3, "q": "What is the space complexity of in-place array rotation using the reversal algorithm?", "options": ["O(n)", "O(1)", "O(log n)", "O(n log n)"], "answer": 1 },
+  { "id": "dsa-arr-5", "topic": "DSA", "subtopic": "Arrays", "difficulty": 1, "q": "Which of these is NOT a valid way to declare an array in Java?", "options": ["int[] arr;", "int arr[];", "array int arr;", "int arr[] = new int[5];"], "answer": 2 },
+
+  { "id": "dsa-str-1", "topic": "DSA", "subtopic": "Strings", "difficulty": 1, "q": "Which method checks if a string is a palindrome most efficiently?", "options": ["Reverse and compare", "Two pointer from both ends", "Sort characters", "Use HashMap"], "answer": 1 },
+  { "id": "dsa-str-2", "topic": "DSA", "subtopic": "Strings", "difficulty": 2, "q": "Time complexity of checking if two strings are anagrams using frequency count?", "options": ["O(n^2)", "O(n log n)", "O(n)", "O(1)"], "answer": 2 },
+  { "id": "dsa-str-3", "topic": "DSA", "subtopic": "Strings", "difficulty": 2, "q": "Why is StringBuilder preferred over String for repeated concatenation in Java?", "options": ["String is immutable, creates new object each time", "StringBuilder is thread-safe", "String is deprecated", "No real difference"], "answer": 0 },
+  { "id": "dsa-str-4", "topic": "DSA", "subtopic": "Strings", "difficulty": 3, "q": "Which pattern matching algorithm achieves O(n+m) time complexity?", "options": ["Naive matching", "KMP Algorithm", "Bubble matching", "Linear scan twice"], "answer": 1 },
+  { "id": "dsa-str-5", "topic": "DSA", "subtopic": "Strings", "difficulty": 1, "q": "What does string.charAt(i) return in Java?", "options": ["Character at index i", "ASCII value at index i", "Substring from i", "Index of character"], "answer": 0 },
+
+  { "id": "dsa-tp-1", "topic": "DSA", "subtopic": "Two Pointer", "difficulty": 2, "q": "Two Pointer technique is most suitable for which type of problem?", "options": ["Unsorted random access", "Sorted array pair-sum problems", "Graph traversal", "Tree height"], "answer": 1 },
+  { "id": "dsa-tp-2", "topic": "DSA", "subtopic": "Two Pointer", "difficulty": 2, "q": "To find if a pair with given sum exists in a sorted array, two pointer approach runs in:", "options": ["O(n)", "O(n^2)", "O(n log n)", "O(1)"], "answer": 0 },
+  { "id": "dsa-tp-3", "topic": "DSA", "subtopic": "Two Pointer", "difficulty": 3, "q": "In 'container with most water', why move the pointer at the shorter line?", "options": ["Random choice", "Moving taller line can't increase area", "It's faster", "It reduces array size"], "answer": 1 },
+  { "id": "dsa-tp-4", "topic": "DSA", "subtopic": "Two Pointer", "difficulty": 1, "q": "Two pointer technique typically uses how many extra variables for traversal?", "options": ["0", "2", "n", "n/2"], "answer": 1 },
+  { "id": "dsa-tp-5", "topic": "DSA", "subtopic": "Two Pointer", "difficulty": 2, "q": "Removing duplicates from a sorted array in-place is best solved using:", "options": ["HashSet", "Two pointer (slow-fast)", "Sorting again", "Recursion"], "answer": 1 },
+
+  { "id": "dsa-sw-1", "topic": "DSA", "subtopic": "Sliding Window", "difficulty": 2, "q": "Sliding Window technique is ideal for problems involving:", "options": ["Contiguous subarrays/substrings", "Random pair search", "Tree balancing", "Graph coloring"], "answer": 0 },
+  { "id": "dsa-sw-2", "topic": "DSA", "subtopic": "Sliding Window", "difficulty": 2, "q": "Finding the maximum sum of a subarray of size k is solved in:", "options": ["O(n*k)", "O(n) with sliding window", "O(n^2)", "O(k^2)"], "answer": 1 },
+  { "id": "dsa-sw-3", "topic": "DSA", "subtopic": "Sliding Window", "difficulty": 3, "q": "In variable-size sliding window, the window shrinks when:", "options": ["Window reaches array end", "A constraint is violated", "Every iteration", "Never shrinks"], "answer": 1 },
+  { "id": "dsa-sw-4", "topic": "DSA", "subtopic": "Sliding Window", "difficulty": 1, "q": "Sliding window avoids recomputation by:", "options": ["Reusing previous window's result", "Sorting first", "Using recursion", "Hashing every element"], "answer": 0 },
+  { "id": "dsa-sw-5", "topic": "DSA", "subtopic": "Sliding Window", "difficulty": 2, "q": "For 'longest substring with at most K distinct characters', which structure tracks the window?", "options": ["HashMap of char counts", "Sorted array", "Stack", "Binary tree"], "answer": 0 },
+
+  { "id": "apt-pl-1", "topic": "Aptitude", "subtopic": "Profit-Loss", "difficulty": 1, "q": "If cost price is ₹200 and selling price is ₹250, profit % is:", "options": ["20%", "25%", "30%", "50%"], "answer": 1 },
+  { "id": "apt-pl-2", "topic": "Aptitude", "subtopic": "Profit-Loss", "difficulty": 2, "q": "A shopkeeper marks an item 40% above cost price and gives 10% discount. His profit % is:", "options": ["26%", "30%", "34%", "24%"], "answer": 0 },
+  { "id": "apt-pl-3", "topic": "Aptitude", "subtopic": "Profit-Loss", "difficulty": 2, "q": "An article sold at a loss of 15% for ₹850. The cost price is:", "options": ["₹1000", "₹977.5", "₹1050", "₹900"], "answer": 0 },
+  { "id": "apt-pl-4", "topic": "Aptitude", "subtopic": "Profit-Loss", "difficulty": 1, "q": "Marked price ₹500, discount 20%. Selling price is:", "options": ["₹400", "₹380", "₹420", "₹450"], "answer": 0 },
+
+  { "id": "apt-tw-1", "topic": "Aptitude", "subtopic": "Time-Work", "difficulty": 2, "q": "A can do a work in 10 days, B in 15 days. Working together, they finish in:", "options": ["6 days", "5 days", "12 days", "8 days"], "answer": 0 },
+  { "id": "apt-tw-2", "topic": "Aptitude", "subtopic": "Time-Work", "difficulty": 2, "q": "If 12 men can build a wall in 15 days, how many days for 18 men?", "options": ["10 days", "12 days", "8 days", "20 days"], "answer": 0 },
+  { "id": "apt-tw-3", "topic": "Aptitude", "subtopic": "Time-Work", "difficulty": 3, "q": "A and B together finish work in 6 days. A alone takes 10 days. B alone takes:", "options": ["15 days", "12 days", "18 days", "20 days"], "answer": 0 },
+  { "id": "apt-tw-4", "topic": "Aptitude", "subtopic": "Time-Work", "difficulty": 1, "q": "Work done is inversely proportional to:", "options": ["Number of workers only", "Time taken", "Both men and time combined via man-days", "None"], "answer": 2 },
+
+  { "id": "apt-pc-1", "topic": "Aptitude", "subtopic": "Percentages", "difficulty": 1, "q": "40% of 250 is:", "options": ["100", "90", "110", "120"], "answer": 0 },
+  { "id": "apt-pc-2", "topic": "Aptitude", "subtopic": "Percentages", "difficulty": 2, "q": "If a number is increased by 20% and then decreased by 20%, net change is:", "options": ["No change", "4% decrease", "4% increase", "20% decrease"], "answer": 1 },
+  { "id": "apt-pc-3", "topic": "Aptitude", "subtopic": "Percentages", "difficulty": 2, "q": "A student scores 450 out of 600. Percentage scored is:", "options": ["70%", "75%", "80%", "65%"], "answer": 1 },
+  { "id": "apt-pc-4", "topic": "Aptitude", "subtopic": "Percentages", "difficulty": 3, "q": "Population grows 10% every year. After 2 years, growth % overall is:", "options": ["20%", "21%", "22%", "19%"], "answer": 1 },
+
+  { "id": "apt-sd-1", "topic": "Aptitude", "subtopic": "Speed-Distance", "difficulty": 1, "q": "A car travels 180 km in 3 hours. Its speed is:", "options": ["50 km/hr", "60 km/hr", "70 km/hr", "45 km/hr"], "answer": 1 },
+  { "id": "apt-sd-2", "topic": "Aptitude", "subtopic": "Speed-Distance", "difficulty": 2, "q": "Two trains 100 km apart move toward each other at 40 and 60 km/hr. They meet after:", "options": ["1 hour", "1.5 hours", "2 hours", "0.5 hours"], "answer": 0 },
+  { "id": "apt-sd-3", "topic": "Aptitude", "subtopic": "Speed-Distance", "difficulty": 2, "q": "A train 150m long crosses a pole in 15 seconds. Its speed is:", "options": ["10 m/s", "36 km/hr", "Both A and B", "15 m/s"], "answer": 2 },
+  { "id": "apt-sd-4", "topic": "Aptitude", "subtopic": "Speed-Distance", "difficulty": 3, "q": "Boat speed in still water is 10 km/hr, stream speed 2 km/hr. Downstream speed is:", "options": ["8 km/hr", "12 km/hr", "10 km/hr", "20 km/hr"], "answer": 1 },
+
+  { "id": "rsn-ds-1", "topic": "Reasoning", "subtopic": "Direction Sense", "difficulty": 2, "q": "A man walks 5km North, then 3km East, then 5km South. He is now:", "options": ["3km East of start", "8km East of start", "3km West of start", "At start point"], "answer": 0 },
+  { "id": "rsn-ds-2", "topic": "Reasoning", "subtopic": "Direction Sense", "difficulty": 3, "q": "Facing North, you turn 90° clockwise, then 180°. You now face:", "options": ["North", "South", "East", "West"], "answer": 1 },
+  { "id": "rsn-ds-3", "topic": "Reasoning", "subtopic": "Direction Sense", "difficulty": 3, "q": "A person walks 4km East, 3km North. Shortest distance from start is:", "options": ["5km", "7km", "6km", "4km"], "answer": 0 },
+  { "id": "rsn-ds-4", "topic": "Reasoning", "subtopic": "Direction Sense", "difficulty": 2, "q": "At sunrise, a man's shadow falls exactly to his left. He is facing:", "options": ["North", "South", "East", "West"], "answer": 0 },
+
+  { "id": "rsn-syl-1", "topic": "Reasoning", "subtopic": "Syllogism", "difficulty": 2, "q": "All cats are animals. Some animals are dogs. Which conclusion is valid?", "options": ["All cats are dogs", "Some animals are cats (given)", "No valid conclusion about cats and dogs directly", "All dogs are cats"], "answer": 2 },
+  { "id": "rsn-syl-2", "topic": "Reasoning", "subtopic": "Syllogism", "difficulty": 3, "q": "All pens are books. No book is a pencil. Conclusion: No pen is a pencil. This is:", "options": ["Valid", "Invalid", "Cannot be determined", "Partially valid"], "answer": 0 },
+  { "id": "rsn-syl-3", "topic": "Reasoning", "subtopic": "Syllogism", "difficulty": 3, "q": "Some A are B. Some B are C. Which conclusion definitely follows?", "options": ["Some A are C", "No A is C", "None definitely follows", "All A are C"], "answer": 2 },
+  { "id": "rsn-syl-4", "topic": "Reasoning", "subtopic": "Syllogism", "difficulty": 2, "q": "In syllogism, a 'universal negative' statement is represented as:", "options": ["All A are B", "Some A are B", "No A is B", "Some A are not B"], "answer": 2 },
+
+  { "id": "rsn-ns-1", "topic": "Reasoning", "subtopic": "Number Series", "difficulty": 1, "q": "Find the next number: 2, 4, 8, 16, ?", "options": ["24", "32", "30", "20"], "answer": 1 },
+  { "id": "rsn-ns-2", "topic": "Reasoning", "subtopic": "Number Series", "difficulty": 2, "q": "Find the next number: 3, 6, 11, 18, 27, ?", "options": ["36", "38", "40", "34"], "answer": 1 },
+  { "id": "rsn-ns-3", "topic": "Reasoning", "subtopic": "Number Series", "difficulty": 2, "q": "Find the missing number: 1, 4, 9, 16, ?, 36", "options": ["20", "24", "25", "30"], "answer": 2 },
+  { "id": "rsn-ns-4", "topic": "Reasoning", "subtopic": "Number Series", "difficulty": 3, "q": "Find the next term: 5, 11, 23, 47, ?", "options": ["94", "95", "96", "93"], "answer": 1 },
+
+  { "id": "rsn-cd-1", "topic": "Reasoning", "subtopic": "Coding-Decoding", "difficulty": 2, "q": "If CAT is coded as DBU, how is DOG coded?", "options": ["EPH", "EPI", "FQH", "EOH"], "answer": 0 },
+  { "id": "rsn-cd-2", "topic": "Reasoning", "subtopic": "Coding-Decoding", "difficulty": 2, "q": "In a code, GARDEN is written as HBSEFO. How is FLOWER coded?", "options": ["GMPXFS", "GMPXFT", "FMPXFS", "GNPXFS"], "answer": 0 },
+  { "id": "rsn-cd-3", "topic": "Reasoning", "subtopic": "Coding-Decoding", "difficulty": 3, "q": "If in a code language, 1 means A, 2 means B... then 3-15-14 means:", "options": ["CAT", "CON", "CAN", "COD"], "answer": 2 },
+  { "id": "rsn-cd-4", "topic": "Reasoning", "subtopic": "Coding-Decoding", "difficulty": 2, "q": "If APPLE is coded as 51151215, what is the coding logic?", "options": ["Reverse alphabet position", "Position of letter in alphabet", "ASCII value", "Random"], "answer": 1 },
+
+  { "id": "vrb-pj-1", "topic": "Verbal", "subtopic": "Para Jumbles", "difficulty": 2, "q": "In para jumbles, the first clue to identify the opening sentence is usually:", "options": ["A sentence with a pronoun reference", "A sentence introducing the main subject/topic", "The shortest sentence", "The longest sentence"], "answer": 1 },
+  { "id": "vrb-pj-2", "topic": "Verbal", "subtopic": "Para Jumbles", "difficulty": 2, "q": "Sentences starting with 'However' or 'Therefore' usually indicate:", "options": ["They are the opening sentence", "They connect to a previous idea, not the start", "They are always the last sentence", "No significance"], "answer": 1 },
+  { "id": "vrb-pj-3", "topic": "Verbal", "subtopic": "Para Jumbles", "difficulty": 3, "q": "Which pair is most likely to be linked consecutively: one ending in a noun, another starting with a pronoun referring to it?", "options": ["Unrelated pair", "They likely form a mandatory pair (linked)", "They must be far apart", "Cannot determine"], "answer": 1 },
+
+  { "id": "vrb-es-1", "topic": "Verbal", "subtopic": "Error Spotting", "difficulty": 2, "q": "Identify the error: 'Each of the students have submitted their assignment.'", "options": ["No error", "'have' should be 'has'", "'their' should be 'his'", "'submitted' should be 'submit'"], "answer": 1 },
+  { "id": "vrb-es-2", "topic": "Verbal", "subtopic": "Error Spotting", "difficulty": 2, "q": "Identify the error: 'She don't like to attend the meetings.'", "options": ["No error", "'don't' should be 'doesn't'", "'like' should be 'likes'", "'attend' should be 'attending'"], "answer": 1 },
+  { "id": "vrb-es-3", "topic": "Verbal", "subtopic": "Error Spotting", "difficulty": 3, "q": "Identify the error: 'Neither of the answers are correct.'", "options": ["No error", "'are' should be 'is'", "'Neither' should be 'None'", "'correct' should be 'corrects'"], "answer": 1 },
+
+  { "id": "vrb-vc-1", "topic": "Verbal", "subtopic": "Vocabulary", "difficulty": 1, "q": "Synonym of 'Meticulous':", "options": ["Careless", "Careful and precise", "Fast", "Lazy"], "answer": 1 },
+  { "id": "vrb-vc-2", "topic": "Verbal", "subtopic": "Vocabulary", "difficulty": 2, "q": "Antonym of 'Benevolent':", "options": ["Kind", "Generous", "Malicious", "Caring"], "answer": 2 },
+  { "id": "vrb-vc-3", "topic": "Verbal", "subtopic": "Vocabulary", "difficulty": 2, "q": "'Ubiquitous' most nearly means:", "options": ["Rare", "Present everywhere", "Hidden", "Ancient"], "answer": 1 },
+
+  { "id": "vrb-ew-1", "topic": "Verbal", "subtopic": "Email Writing", "difficulty": 1, "q": "A formal email to HR requesting leave should begin with:", "options": ["Hey there!", "Dear Sir/Madam / Dear [Name],", "Hii", "To whoever it may concern (informal tone)"], "answer": 1 },
+  { "id": "vrb-ew-2", "topic": "Verbal", "subtopic": "Email Writing", "difficulty": 2, "q": "Which subject line is most appropriate for a formal leave request email?", "options": ["leave", "URGENT!!!", "Leave Request - [Your Name] - [Dates]", "hi"], "answer": 2 },
+  { "id": "vrb-ew-3", "topic": "Verbal", "subtopic": "Email Writing", "difficulty": 2, "q": "A professional email closing should typically be:", "options": ["Bye bye", "Regards / Sincerely, [Name]", "TTYL", "No closing needed"], "answer": 1 }
+]

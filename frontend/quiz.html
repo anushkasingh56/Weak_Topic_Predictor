@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Take Quiz — Weak Topic Predictor</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="brand-mark"></span> Weak Topic Predictor</div>
+  <div class="nav-links">
+    <a href="index.html">Dashboard</a>
+    <a href="quiz.html" class="active">Take Quiz</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <div id="pickerView">
+    <div class="page-head">
+      <div class="eyebrow">Step 1</div>
+      <h1>Pick topics to practice</h1>
+      <p>Select one or more subtopics. Leave nothing selected to get a mixed set across everything.</p>
+    </div>
+    <div class="picker-grid" id="pickerGrid"></div>
+    <div class="btn-row">
+      <button class="btn" id="startBtn">Start Quiz</button>
+      <button class="btn btn-ghost" id="resetProgressBtn">Reset all progress</button>
+    </div>
+  </div>
+
+  <div id="quizView" style="display:none">
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="quiz-card">
+      <div class="quiz-meta">
+        <span id="questionCounter">Question 1 / 10</span>
+        <span class="timer" id="timer">00:00</span>
+      </div>
+      <div class="question-text" id="questionText"></div>
+      <div class="option-list" id="optionList"></div>
+    </div>
+  </div>
+
+  <div id="resultView" style="display:none">
+    <div class="page-head">
+      <div class="eyebrow">Session complete</div>
+      <h1>Nice work!</h1>
+      <p id="resultSummaryText"></p>
+    </div>
+    <div class="summary-grid" id="summaryGrid"></div>
+    <div class="btn-row">
+      <a href="index.html" class="btn">View Full Dashboard</a>
+      <button class="btn btn-ghost" id="retakeBtn">Take Another Set</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>

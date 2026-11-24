@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Weak Topic Predictor</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand"><span class="brand-mark"></span> Weak Topic Predictor</div>
+  <div class="nav-links">
+    <a href="index.html" class="active">Dashboard</a>
+    <a href="quiz.html">Take Quiz</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="page-head">
+    <div class="eyebrow">AI-based placement prep analytics</div>
+    <h1>Where you actually stand</h1>
+    <p>Every quiz attempt is scored on accuracy, speed and recency, then run through a linear-regression trend model to flag topics that are weak <em>right now</em> — or quietly getting worse.</p>
+  </div>
+
+  <div class="stat-strip" id="statStrip"></div>
+
+  <div id="focusSection"></div>
+
+  <div id="radarSection"></div>
+
+  <div id="emptyState" style="display:none" class="empty-state">
+    No attempts logged yet. <a href="quiz.html">Take a quiz</a> to generate your first analysis.
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
