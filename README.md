@@ -63,11 +63,6 @@ weak-topic-predictor/
 
 ---
 
-## How the "AI" part actually works (for your interview)
-
-This is the part you should be able to explain confidently, since it's the
-whole point of the project.
-
 ### 1. Weakness Score (0–100, higher = weaker)
 
 For every subtopic (e.g. "DSA → Sliding Window"), all attempts are combined
@@ -126,7 +121,7 @@ end-to-end.
 
 ---
 
-## Possible extensions (mention these if asked "what would you add next")
+## Possible extensions
 
 - Swap the JSON file storage for MongoDB/PostgreSQL for multi-user support.
 - Add authentication (JWT — you already know this from LinkVault) so
